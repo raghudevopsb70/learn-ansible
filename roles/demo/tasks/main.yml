@@ -2,3 +2,6 @@
   ansible.builtin.debug:
     msg: Hello from role
 
+- name: Print URL
+  ansible.builtin.debug:
+    msg: URL == {{URL}}
