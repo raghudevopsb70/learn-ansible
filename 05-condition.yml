@@ -2,7 +2,7 @@
   hosts: all
   vars:
     a: 100
-    b: true
+    b: false
   tasks:
     - name: String Conditions
       debug:
